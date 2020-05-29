@@ -1,0 +1,11 @@
+#language: ruby
+#rvm:
+# - 2.2
+# - jruby
+language : node_js
+node_js :
+ - stable
+install:
+ - npm install
+script:
+ - npm test 
